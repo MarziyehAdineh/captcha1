@@ -20,11 +20,11 @@ class App extends React.Component {
             onChange={this.handleOnChange}
           />
           <br/>
-        <h3>TODO</h3>
+        <h3>لیست:</h3>
         <TodoList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="new-todo">
-            What needs to be done?
+          <label htmlFor="new-todo" style={{dir:"rtl"}}>
+            چه کارهایی باید انجام بشود؟
           </label>
           <input
             id="new-todo"
